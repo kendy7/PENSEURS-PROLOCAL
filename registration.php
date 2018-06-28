@@ -116,15 +116,6 @@ die("<div class='error_alert'> Le numero de telephone fournit n'est pas valide</
 $Tel=$_POST['phoneA']." ".$_POST['phone']."-".$_POST['phone2']."-".$_POST['phone3'];
 }
 
-
-
-
-
-
-
-
-
-
  if($date_Inf<18){
 	die('<div class="error_alert">'.$lang_client_['contact_form']['DATE_INF'].' '.$lang_client_['contact_form']['DATE_INF_SUITE'].' '.$date_Inf.' an(s)</div>');
 }
